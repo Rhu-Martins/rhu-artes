@@ -44,7 +44,6 @@ padding: 2px;
    display: flex;
    flex-direction: row;
    font-size: 65px;
-   padding-left: 115px;
    color: #FFF2E7;
    
 }
@@ -83,6 +82,7 @@ padding: 2px;
     display: flex;
     flex-direction: column;
     gap: 32px;
+    padding-bottom: 45px;
  }
  
  .imagem-arte-visual{
@@ -144,6 +144,7 @@ padding: 2px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 30px;
 }
 
 .imagem-monitor{
@@ -216,4 +217,264 @@ padding: 2px;
 
 .btn-2:hover{
    background-color: rgb(44, 37, 37);
+}
+
+@media screen and (max-width: 1230px) {
+
+   .cabecalho{
+      flex-direction: column;
+   }
+   .conteudo{
+      flex-direction: column;
+   }
+   .rodape{
+      flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 995px) {
+
+   .cabecalho{
+      flex-direction: column;
+      display: flex;
+   }
+   .cabecalho-imagem {
+      flex-direction: column;
+  }
+  
+  .cabecalho-menu {
+   flex-direction: column;
+  }
+  
+  .cabecalho-menu-titulo{
+   flex-direction: column;
+  }
+  
+  .cabecalho-menu-titulo:hover{
+   flex-direction: column;
+  }
+  
+  .cabecalho-titulo{
+   flex-direction: column;
+   font-size: 45px;
+
+  }
+.conteudo-principal{
+   flex-direction: column; 
+   display: flex;
+  
+}
+
+.conteudo-principal-escrito{
+   flex-direction: column;
+}
+
+.titulo-section-um{
+   flex-direction: column;
+}
+
+.frase-section-um{
+   flex-direction: column;
+   
+}
+
+.conteudo-secundario-escrito{
+   flex-direction: column;
+}
+
+.imagem-arte-visual{
+   flex-direction: column;
+}
+
+.conteudo-secundario{
+   flex-direction: column;
+}
+
+.imagem-arte-visual-dois{
+   flex-direction: column;
+}
+
+.titulo-um-section-dois{
+   flex-direction: column;
+}
+
+.frase-section-dois{
+   flex-direction: column;
+}
+
+.titulo-dois-section-dois{
+   flex-direction: column;
+}
+
+.conteudo-terceiro{
+   flex-direction: column;
+}
+.conteudo-terciario-escrito{
+   flex-direction: column;
+}
+
+.imagem-celular{
+   flex-direction: column;
+}
+
+.conteudo-quarto{
+   flex-direction: column;
+}
+
+.imagem-monitor{
+   flex-direction: column;
+}
+
+.conteudo-quarto-escrito{
+   flex-direction: column;
+}
+
+.titulo-rodape{
+   flex-direction: column;
+}
+
+.bold{
+   flex-direction: column;
+}
+
+.btn{  
+   flex-direction: column;
+   
+} 
+
+.btn:hover{
+   flex-direction: column;
+}
+
+.btn-2{  
+   flex-direction: column;
+} 
+
+.btn-2:hover{
+   flex-direction: column;
+}
+}
+
+@media screen and (max-width: 795px) {
+.conteudo-terceiro{
+   flex-direction: column;
+   
+}
+.conteudo-terciario-escrito{
+   flex-direction: column;
+}
+.titulo-um-section-dois{
+   font-size: 28px;
+}
+
+.imagem-celular{
+   flex-direction: column;
+   height: 75%;
+   width: 75%;
+}
+
+.conteudo-quarto{
+   flex-direction: column;
+}
+.imagem-arte-visual{
+   flex-direction: column;
+   height: 75%;
+   width: 75%;
+}
+
+.imagem-arte-visual-dois{
+   flex-direction: column;
+   height: 85%;
+   width: 85%;
+}
+.imagem-monitor{
+   flex-direction: column;
+   height: 75%;
+   width: 75%;
+}
+
+.conteudo-quarto-escrito{
+   flex-direction: column;
+   font-size: 25px;
+}
+
+.titulo-rodape{
+   flex-direction: column;
+}
+
+.bold{
+   flex-direction: column;
+}
+
+.btn{  
+   flex-direction: column;
+   
+} 
+
+.btn:hover{
+   flex-direction: column;
+}
+
+.btn-2{  
+   flex-direction: column;
+} 
+
+.btn-2:hover{
+   flex-direction: column;
+}
+
+.rodape{
+   flex-direction: row;
+}
+
+}
+
+@media screen and (max-width: 595px) {
+
+   .cabecalho-titulo{
+      font-size: 35px;
+   }
+   
+   .titulo-section-um{
+      font-size: 55px;
+   }
+
+   .frase-section-um{
+      font-size: 25px;
+   }
+
+   .cabecalho-menu-titulo{
+      font-size: 14px;
+   }
+
+   .btn{
+      width: 35%;
+      height: 35%;
+   }
+
+   .btn-2{
+      width: 35%;
+      height: 35%;
+   }
+
+   .titulo-um-section-dois{
+      font-size: 25px;
+   }
+   .frase-section-dois{
+      font-size: 25px;
+   }
+   .titulo-dois-section-dois{
+      font-size: 25px;
+   }
+   .titulo-rodape{
+      font-size: 25px;
+   }
+}
+
+@media screen and (max-width: 1380px) and (min-width: 1231px) {
+
+   .cabecalho-titulo{
+      font-size: 45px;
+   }
+   
 }
