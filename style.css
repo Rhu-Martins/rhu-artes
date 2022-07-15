@@ -287,7 +287,7 @@ padding: 2px;
 }
 
 .conteudo-secundario{
-   flex-direction: column;
+   flex-direction: column-reverse;
 }
 
 .imagem-arte-visual-dois{
@@ -318,7 +318,7 @@ padding: 2px;
 }
 
 .conteudo-quarto{
-   flex-direction: column;
+   flex-direction: column-reverse;
 }
 
 .imagem-monitor{
@@ -477,4 +477,41 @@ padding: 2px;
       font-size: 45px;
    }
    
+}
+
+@media screen and (max-width: 486px) {
+   .cabecalho-titulo{
+      font-size: 28px;
+   }
+   .titulo-section-um{
+      font-size: 45px;
+   }
+   .frase-section-um{
+      font-size: 23px;
+   }
+   .titulo-um-section-dois{
+      font-size: 21px;
+   }
+   .frase-section-dois{
+      font-size: 21px;
+   }
+   .titulo-dois-section-dois{
+      font-size: 21px;
+   }
+   .titulo-rodape{
+      font-size: 21px;
+   }
+   .bold{
+      font-size: 21px;
+   }
+
+   .btn{
+      width: 35%;
+      height: 35%;
+   }
+
+   .btn-2{
+      width: 35%;
+      height: 35%;
+   }
 }
