@@ -524,3 +524,43 @@ padding: 2px;
       height: 35%;
    }
 }
+
+@media screen and (max-width: 360px){
+   .cabecalho-titulo{
+      font-size: 20px;
+   }
+   .titulo-section-um{
+      font-size: 35px;
+   }
+   .frase-section-um{
+      font-size: 20px;
+   }
+   .titulo-um-section-dois{
+      font-size: 18px;
+   }
+   .frase-section-dois{
+      font-size: 18px;
+   }
+   .titulo-dois-section-dois{
+      font-size: 18px;
+   }
+   .titulo-rodape{
+      font-size: 18px;
+   }
+   .bold{
+      font-size: 18px;
+   }
+
+   .btn{
+      width: 35%;
+      height: 35%;
+   }
+
+   .btn-2{
+      width: 35%;
+      height: 35%;
+   }
+}
+ {
+   
+}
