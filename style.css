@@ -374,7 +374,10 @@ padding: 2px;
 }
 
 .conteudo-quarto{
-   flex-direction: column;
+   flex-direction: column-reverse;
+}
+.conteudo-secundario{
+   flex-direction: column-reverse;
 }
 .imagem-arte-visual{
    flex-direction: column;
@@ -468,6 +471,12 @@ padding: 2px;
    }
    .titulo-rodape{
       font-size: 25px;
+   }
+   .conteudo-quarto{
+      flex-direction: column-reverse;
+   }
+   .conteudo-secundario{
+      flex-direction: column-reverse;
    }
 }
 
