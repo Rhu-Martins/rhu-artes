@@ -109,6 +109,14 @@ padding: 2px;
     font-size: 40px;
     color: #FFF2E7;
  }
+ .titulo-um-section-este{
+   border-top: 0.4px solid #FFF2E7;
+   padding-top: 48px;
+   font-weight: 400;
+   font-size: 40px;
+   color: #FFF2E7;
+}
+
 
  .frase-section-dois{
     font-weight: 400;
@@ -297,6 +305,9 @@ padding: 2px;
 .titulo-um-section-dois{
    flex-direction: column;
 }
+.titulo-um-section-este{
+   flex-direction: column;
+}
 
 .frase-section-dois{
    flex-direction: column;
@@ -364,6 +375,9 @@ padding: 2px;
    flex-direction: column;
 }
 .titulo-um-section-dois{
+   font-size: 28px;
+}
+.titulo-um-section-este{
    font-size: 28px;
 }
 
@@ -463,6 +477,9 @@ padding: 2px;
    .titulo-um-section-dois{
       font-size: 25px;
    }
+   .titulo-um-section-este{
+      font-size: 25px;
+   }
    .frase-section-dois{
       font-size: 25px;
    }
@@ -488,21 +505,32 @@ padding: 2px;
    
 }
 
-@media screen and (max-width: 486px) {
+@media screen and (max-width: 425px) {
    .cabecalho-titulo{
-      font-size: 28px;
+      font-size: 25px;
+      padding-bottom: 10px;
+   }
+   .cabecalho-imagem{
+      padding-bottom: 8px;
    }
    .cabecalho-menu{
       gap: 18px;
      }
    .titulo-section-um{
-      font-size: 45px;
-   }
-   .frase-section-um{
-      font-size: 23px;
+      font-size: 25px;
+      text-align: center;
+      padding-top: 10px;
+      margin-left: 25px;
    }
    .titulo-um-section-dois{
       font-size: 21px;
+      text-align: center;
+   }
+   .titulo-um-section-este{
+      font-size: 21px;
+   }
+   .frase-section-um{
+      font-size: 23px;
    }
    .frase-section-dois{
       font-size: 21px;
@@ -514,21 +542,26 @@ padding: 2px;
       font-size: 21px;
    }
    .bold{
-      font-size: 21px;
+      font-size: 10px;
    }
-
    .btn{
-      width: 35%;
-      height: 35%;
+      margin-left: 95px;
+      font-size: 15px;
+      width: 52%;
+      height: 45%;
+      padding-top: 0px;
    }
 
    .btn-2{
-      width: 35%;
-      height: 35%;
+      margin-left: 125px;
+      font-size: 14px;
+      width: 38%;
+      height: 40%;
+      padding-top: 0px;
    }
 }
 
-@media screen and (max-width: 405px){
+@media screen and (max-width: 375px){
    .cabecalho-titulo{
       font-size: 25px;
       padding-bottom: 10px;
@@ -545,11 +578,16 @@ padding: 2px;
       padding-top: 10px;
    }
    .frase-section-um{
-      font-size: 15px;
+      font-size: 20px;
       text-align: center;
 
    }
    .titulo-um-section-dois{
+      font-size: 18px;
+      text-align: center;
+
+   }
+   .titulo-um-section-este{
       font-size: 18px;
       text-align: center;
 
@@ -571,7 +609,7 @@ padding: 2px;
    }
 
    .btn{
-      margin-left: 60px;
+      margin-left: 80px;
       font-size: 15px;
       width: 52%;
       height: 45%;
@@ -579,13 +617,84 @@ padding: 2px;
    }
 
    .btn-2{
-      margin-left: 1px;
+      margin-left: 100px;
       font-size: 14px;
       width: 38%;
       height: 40%;
       padding-top: 0px;
    }
 }
- {
+
+@media screen and (max-width: 320px) {
+   .cabecalho-titulo{
+      font-size: 23px;
+      padding-bottom: 10px;
+   }
+   .cabecalho-imagem{
+      padding-bottom: 8px;
+   }
+  .cabecalho-menu{
+   gap: 18px;
+  }
+   .titulo-section-um{
+      font-size: 25px;
+      text-align: center;
+      padding-top: 10px;
+   }
+   .titulo-section-um{
+      font-size: 25px;
+      text-align: center;
+      padding-top: 10px;
+   }
+   .titulo-um-section-dois{
+      font-size: 20px;
+      text-align: center;
+      
+   }
+   .titulo-um-section-este{
+      font-size: 16px;
+      text-align: center;
+      
+   }
+
+   .frase-section-um{
+      font-size: 18px;
+   }
+   .frase-section-dois{
+      font-size: 16px;
+   }
+   .titulo-dois-section-dois{
+      font-size: 16px;
+      text-align: center;
+   }
+
+   .titulo-dois-section-este{
    
+   }
+
+   .titulo-rodape{
+      font-size: 16px;
+
+   }
+
+   .bold{
+      font-size: 10px;
+      text-align: center;
+   }
+
+   .btn{
+      margin-left: 75px;
+      font-size: 15px;
+      width: 52%;
+      height: 45%;
+      padding-top: 0px;
+   }
+
+   .btn-2{
+      margin-left: 100px;
+      font-size: 14px;
+      width: 38%;
+      height: 40%;
+      padding-top: 0px;
+   }
 }
